@@ -67,3 +67,5 @@ _To prevent abuse (like spamming or brute-force attacks), I'd use Laravel’s bu
     ```
    
 Server will be running at `http://localhost:8000`.
+
+API Documentation can be found at `http://localhost:8000/api-docs`.
