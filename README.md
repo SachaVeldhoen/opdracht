@@ -43,30 +43,25 @@ _To prevent abuse (like spamming or brute-force attacks), I'd use Laravel’s bu
     composer install
     ```
 
-4. Install JavaScript dependencies:
-    ```bash
-    npm install && npm run dev
-    ```
-
-5. Copy the `.env.example` file and rename it to `.env`:
+4. Copy the `.env.example` file and rename it to `.env`:
     ```bash
     cp .env.example .env
     ```
 
-6. Generate application key (if not already set in `.env`):
+5. Generate application key (if not already set in `.env`):
     ```bash
     php artisan key:generate
     ```
 
-   (Make sure to set the database connection details in your `.env` file, such as `DB_CONNECTION`, `DB_HOST`, `DB_PORT`, `DB_DATABASE`, `DB_USERNAME`, and `DB_PASSWORD`)
+   (Make sure to set the database connection and settle all the fields in your `.env` file, such as `DB_CONNECTION`, `DB_HOST`, `DB_PORT`, `DB_DATABASE`, `DB_USERNAME`, and `DB_PASSWORD`)
 
 
-7. Run database migrations:
+6. Run database migrations:
     ```bash
     php artisan migrate
     ```
 
-8. Start the development server:
+7. Start the development server:
     ```bash
     php artisan serve
     ```
